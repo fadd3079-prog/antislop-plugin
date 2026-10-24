@@ -1,0 +1,19 @@
+
+# Local archives and generated packages
+*.zip
+*.tar
+*.tar.gz
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*~

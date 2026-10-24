@@ -1,0 +1,57 @@
+{
+  "author": {
+    "name": "fadd3079-prog"
+  },
+  "homepage": "https://github.com/USERNAME/antislop-chatgpt",
+  "repository": "https://github.com/USERNAME/antislop-chatgpt",
+  "license": "MIT",
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "antislop",
+  "version": "2.0.0",
+  "description": "Adaptive Natural Writing — skill penulisan adaptif untuk membuat, menyunting, memparafrase, dan mengevaluasi tulisan agar natural, jelas, koheren, akurat, serta sesuai konteks, audiens, dan suara penulis tanpa mengorbankan substansi.",
+  "keywords": [
+    "antislop",
+    "anti-ai-slop",
+    "adaptive-writing",
+    "natural-writing",
+    "writing-assistant",
+    "editing",
+    "rewriting",
+    "proofreading",
+    "paraphrasing",
+    "writing-review",
+    "academic-writing",
+    "scientific-writing",
+    "professional-writing",
+    "creative-writing",
+    "context-aware-writing",
+    "bahasa-indonesia"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "antislop",
+        "shortDescription": "Adaptive Natural Writing",
+        "longDescription": "Asisten penulisan adaptif untuk membuat, menyunting, memparafrase, dan mengevaluasi teks sesuai tujuan dan audiens. Mendukung tugas kuliah, laporan praktikum, paper ilmiah, email, chat, caption, portofolio, proposal, komunikasi bisnis, serta tulisan kreatif. Mengutamakan kejelasan, naturalitas, penyuntingan minimal, perlindungan fakta dan sitasi, serta konsistensi suara penulis. Berbasis instruksi tanpa MCP server atau layanan eksternal.",
+        "developerName": "antislop",
+        "category": "Productivity",
+        "capabilities": [
+          "Write",
+          "Rewrite",
+          "Review"
+        ],
+        "brandColor": "#171C26",
+        "brandColorDark": "#FF9862",
+        "composerIcon": "./assets/icon.svg",
+        "composerIconDark": "./assets/icon-dark.svg",
+        "logo": "./assets/icon.svg",
+        "logoDark": "./assets/icon-dark.svg",
+        "defaultPrompt": [
+          "Perbaiki paragraf ini agar natural tanpa mengubah fakta, sitasi, atau istilah teknis.",
+          "Buat pesan WhatsApp yang sopan dan natural sesuai penerima dan situasinya.",
+          "Analisis tulisan berikut untuk menemukan pola AI-slop. Jangan revisi dahulu."
+        ]
+      }
+    }
+  }
+}

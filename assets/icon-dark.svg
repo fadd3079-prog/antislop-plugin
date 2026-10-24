@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title id="title">antislop — precise writing (dark mode)</title>
+  <rect x="1" y="1" width="126" height="126" rx="28" fill="#F6F8FB" stroke="#D5DEE9" stroke-width="2"/>
+  <g fill="none" stroke="#1A2433" stroke-width="9" stroke-linecap="round">
+    <path d="M28 39H82"/>
+    <path d="M28 57H65"/>
+    <path d="M28 75H49"/>
+  </g>
+  <path d="M62 76L75 88L101 46" fill="none" stroke="#D85B28" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
